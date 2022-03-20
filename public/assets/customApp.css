@@ -1,0 +1,81 @@
+@font-face {
+    font-family: english1;
+    src: url("https://thetokyoapp.com/assets/English1.TTF");
+}
+@font-face {
+    font-family: english2;
+    src: url("https://thetokyoapp.com/assets/English2.TTF");
+}
+@font-face {
+    font-family: english3;
+    src: url("https://thetokyoapp.com/assets/English3.TTF");
+}
+.circled-text{
+  	border-radius: 50%;
+  	padding:10px 10px;
+  	cursor:pointer;
+	border: 1px solid #bbbbbb;
+	margin-right: 5px;
+}
+.circled-text:last-child{
+	padding: 11px 14px;
+}
+.circled-text:nth-child(3){
+	padding: 11px 11px;
+}
+#engravingText{
+	background-color: #bbbbbb47;
+	border-radius: 5px;
+}
+.circled-text.active{
+	border: 1px solid black;
+	background-color: #bbb;
+}
+.circled-text-english1{
+	font-family: english1;
+}
+.circled-text-english2{
+	font-family: english2;
+}
+.circled-text-english3{
+	font-family: english3;
+}
+.circled-color{
+  	border-radius: 50%;
+    padding: 20px;
+    margin: 0px 0px;
+    display: inline-block;
+  	cursor:pointer;
+	margin-right: 5px;
+}
+.circled-color.active{
+	border:1px solid black;
+}
+.circled-color-silver{
+	background-color: #C0C0C0;
+}
+.circled-color-gold{
+	background-color: #FFD700;
+}
+.circled-color-black{
+	background-color: #000000;
+}
+#engravingText{
+  	/* color: #C0C0C0; */
+	font-family : english1;
+}
+.redText{
+	text-align: center;
+	color:red;
+}
+.label{
+	margin: 10px 0px;
+}
+.embeddedCode{
+	margin-bottom: 15px;
+}
+@media screen and (max-width: 425px) {
+	#engravingText{
+		font-size: 17px;
+	}
+}
